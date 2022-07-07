@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "loginAnimated",
-    "slug": "loginAnimated",
+    "name": "LoginWithAnimatable",
+    "slug": "loginanimatable",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Tela de login usando a lib Animatable",
+    "githubUrl": "https://github.com/gabrielmurakami/Login-Animatable"
   }
 }
