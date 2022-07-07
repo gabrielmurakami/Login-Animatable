@@ -13,15 +13,28 @@ import * as Animatable from "react-native-animatable";
 export default function SignIn() {
   return (
     <View style={styles.container}>
-      <Animatable.View animation="fadeInLeft"  delay={300}style={styles.containerHeader}>
+      <Animatable.View
+        animation="fadeInLeft"
+        delay={300}
+        style={styles.containerHeader}
+      >
         <Text style={styles.message}>Bem vindo(a)</Text>
       </Animatable.View>
 
       <Animatable.View animation="fadeInUp" style={styles.containerForm}>
         <Text style={styles.title}>Email</Text>
-        <TextInput style={styles.input} placeholder="Digite seu email..." />
+        <TextInput
+          style={styles.input}
+          placeholder="Digite seu email..."
+          keyboardType="email-address"
+          autoCapitalize="none"
+        />
         <Text style={styles.title}>Senha</Text>
-        <TextInput style={styles.input} placeholder="Sua senha" />
+        <TextInput
+          style={styles.input}
+          placeholder="Sua senha"
+          secureTextEntry={true}
+        />
 
         <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>Acessar</Text>
@@ -77,27 +90,27 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: '#38a69d',
-    width: '100%',
+    backgroundColor: "#38a69d",
+    width: "100%",
     borderRadius: 4,
     paddingVertical: 8,
     marginTop: 14,
-    justifyContent: 'center',
-    alignItems: 'center'
+    justifyContent: "center",
+    alignItems: "center",
   },
 
   buttonText: {
-    color: '#FFF',
+    color: "#FFF",
     fontSize: 18,
-    fontWeight: 'bold'
+    fontWeight: "bold",
   },
 
   buttonRegister: {
     marginTop: 14,
-    alignSelf: 'center'
+    alignSelf: "center",
   },
 
   reegisterText: {
-    color: '#a1a1a1'
-  }
+    color: "#a1a1a1",
+  },
 });
