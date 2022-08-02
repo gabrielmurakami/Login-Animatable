@@ -1,6 +1,6 @@
 # Screen login wib Animatable
 
-![Alt Text](https://i.ibb.co/2nbwZtN/expo-go.jpg)
+![Alt Text](https://i.ibb.co/2nbwZtN/2nbwZtN/expo-go.jpg)
 
 ## Prerequisites
 
